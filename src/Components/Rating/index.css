@@ -1,0 +1,25 @@
+.stars-Propri {
+    width: 5%;
+    margin-left: 10px;
+}
+
+@media (max-width: 375px) {
+    .stars-Propri {
+        width: 10%;
+        margin-left: 5px;
+    }
+}
+
+.containerStar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+@media (max-width: 375px) {
+    .containerStar {
+        width: 50%;
+        justify-content: left;
+        margin-top: 0;
+    }
+}

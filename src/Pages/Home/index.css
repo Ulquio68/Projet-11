@@ -1,0 +1,39 @@
+.App-header {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+.App-logo {
+  height: 275px;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 15px;
+  filter: brightness(65%);
+}
+
+@media (max-width: 375px) {
+  .App-logo {
+    height: 150px;
+  }
+}
+
+.title-image {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 45px;
+}
+
+
+@media (max-width: 375px) {
+  .title-image {
+    font-size: 26px;
+    left: 40%;
+    top: 40%;
+    width: 230px;
+    text-align: left;
+  }
+}

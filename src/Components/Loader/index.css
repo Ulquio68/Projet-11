@@ -1,0 +1,41 @@
+.loader {
+    color: #FF6060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 26px;
+}
+
+@media (max-width: 375px) {
+  .loader {
+    height: 85vh;
+    font-size: 20px;
+  }
+}
+
+.around {
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    border-top: #FF6060 solid 4px;
+    border-bottom: #FF6060 solid 4px;
+    animation: rotation 1s infinite linear;
+    margin-left: 20px;
+}
+
+@media (max-width: 375px) {
+  .around {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,157 @@
+#bloc-page-logement {
+    width: auto;
+}
+
+.collapse-order {
+    display: flex;
+}
+
+@media (max-width: 375px) {
+    .collapse-order {
+      flex-direction: column;
+    }
+}
+
+.descri-log {
+    padding-left: 5%;
+    width: 50%;
+}
+
+@media (max-width: 375px) {
+    .descri-log {
+        width: 90%;
+    }
+}
+
+.profil-logement {
+    padding-right: 5%;
+    width: 50%;
+}
+
+.title-logement {
+    color: #FF6060;
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    .title-logement {
+        font-weight: 475;
+    }
+}
+
+.location-logement {
+    color: #FF6060;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 375px) {
+    .location-logement {
+        margin-bottom: 20px;
+    }
+}
+
+.bloc-tags {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+@media (max-width: 375px) {
+    .bloc-tags {
+        margin-bottom: 25px;
+    }
+}
+
+.tag-item {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-right: 1%;
+    color: white;
+    background-color: #FF6060;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 15px;
+}
+
+@media (max-width: 375px) {
+    .tag-item {
+        font-size: 14px;
+        width: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        margin-right: 4%;
+    }
+}
+
+.flex-top-page {
+    display: flex;
+}
+
+@media (max-width: 375px) {
+    .flex-top-page {
+      flex-direction: column;
+    }
+}
+
+.profil-logement {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+@media (max-width: 375px) {
+    .profil-logement {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 90%;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+.name-Propri {
+    color: #FF6060;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+@media (max-width: 375px) {
+    .name-Propri {
+        font-size: 24px;
+        margin-right: 5px;
+    }
+}
+
+.pic-Propri {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+@media (max-width: 375px) {
+    .pic-Propri {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.div-profil {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+    .div-profil {
+        width: 50%;
+    }
+}

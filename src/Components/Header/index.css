@@ -1,0 +1,45 @@
+.App-logo-header {
+    width: 200px;
+    height: auto;
+    user-select: none;
+}
+
+@media (max-width: 375px) {
+    .App-logo-header {
+        width: 100px;
+    }
+}
+
+.links {
+    align-self: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #FF6060;
+    font-size: 24px;
+    padding-right: 25px;
+}
+
+@media (max-width: 375px) {
+    .link {
+        font-size: 16px;
+    }
+}
+
+.link.active {
+    text-decoration: underline;
+  }
+
+#header {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+

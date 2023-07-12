@@ -1,0 +1,57 @@
+.carousel {
+  height: 500px;
+  width: 90%;
+  object-fit: cover;
+  margin-bottom: 35px;
+  margin-right: 5%;
+  margin-left: 5%;
+  position: relative;
+}
+
+@media (max-width: 375px) {
+  .carousel {
+      height: 300px;
+  }
+}
+
+.slide {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+@media (max-width: 375px) {
+  .slide {
+      height: 300px;
+  }
+}
+
+.previous {
+  position: absolute;
+  width: 7%;
+  top: 37.5%;
+  left: 5%;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .previous {
+    top: 50%;
+  }
+}
+
+.next {
+  position: absolute;
+  width: 7%;
+  top: 37.5%;
+  right: 5%;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .next {
+    top: 50%;
+  }
+}
